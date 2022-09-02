@@ -1,0 +1,96 @@
+$red:         #A6192E !default;
+$purple:      #80225F !default;
+$deep-red:    #76232F !default;
+$magenta:     #C6007E !default;
+$charcoal:    #373A36 !default;
+$bright-red:  #D6001C !default;
+$sand:        #D6D2C4 !default;
+$white:       #fff !default;
+$green:       #00AA4F !default;
+
+$colors: (
+  "red":        $red,
+  "purple":     $purple,
+  "deep-red":   $deep-red,
+  "magenta":    $magenta,
+  "charcoal":   $charcoal,
+  "bright-red": $bright-red,
+  "sand":       $sand,
+  "white":      $white,
+  "green":      $green
+) !default;
+
+/*-- scss:uses --*/
+
+/*-- scss:functions --*/
+
+/*-- scss:defaults --*/
+// Headings
+$headingTextTransform: uppercase;
+
+$body-bg:                   $white !default;
+$body-color:                $charcoal !default;
+
+$link-color:                              $red !default;
+
+$font-family-sans-serif:      Arial !default;
+
+$presentation-title-slide-text-align: left;
+
+// Code Blocks
+$code-block-bg:  #F5F5F5 !default;
+$code-block-border-color: $purple !default;
+
+/* -- scss:mixins --*/
+
+/*-- scss:rules --*/
+
+// Macquarie Logo
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  z-index: 1 !important;
+  top: 0 !important;
+  right: 10px !important;
+  max-height: 10% !important;
+  height: 100% !important;
+  width: auto !important;
+  color: $white !important;
+}
+
+// Title
+
+#title-slide{
+  top: 0 !important;
+}
+
+.center{
+  background-color: $sand !important;
+}
+
+.reveal .slides h1{
+  text-transform: capitalize !important;
+}
+
+.reveal .slides h2{
+  text-transform: capitalize !important;
+  font-size: 4rem;
+  background-image: url(_extensions/mq/underline.png);
+  background-position: 0 1.15em;
+  background-repeat: repeat-x;
+  background-size: 1107px 12px;
+}
+
+.reveal .slides h3{
+  text-transform: uppercase !important;
+  color: $red !important;
+  font-size: 2.25rem !important;
+}
+
+.subtitle{
+  color: $red !important;
+}
+
+
+
+

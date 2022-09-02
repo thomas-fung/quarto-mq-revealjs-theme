@@ -1,0 +1,14 @@
+title: A Macquarie University theme for revealjs
+author: Connor Smith & Thomas Fung
+version: 0.0.1
+contributes:
+  format:
+    revealjs:
+        logo: MQ-logo-col.png
+        theme: MQ-theme.scss
+        slide-number: true
+        preview-links: true
+        title-slide-attributes:
+          data-background-image: MQ-diag-full.png
+          data-background-position: 50% 90%
+          data-background-size: 95% 40%
