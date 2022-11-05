@@ -36,7 +36,6 @@ Headings are used to define different sections in the revealjs slides:
 -   A level 2 heading is used to indicate individual slides
 
 ## highlighting code
-<hr size="2rem" color="#373A36">
 
 ### how to
 
@@ -84,11 +83,21 @@ z <- y^2
 
 ## This is a test slide where I do everything
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. [Here](https://www.emilhvitfeldt.com/post/slidecraft-colors-fonts/ "Testing this out") You can embed code like this:
+- When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. 
+- You can embed code like this:
 
 ```{r}
+#| echo: true
 1 + 1
 ```
+
+- Or embed code in a two column format:
+```{r}
+#| echo: true
+#| output-location: column
+1 + 1
+```
+
 
 ## Two Column
 
@@ -104,6 +113,71 @@ Left column
 
 ::: {.column width="50%"}
 Right column
+:::
+
+::::
+
+
+## Addins: Quartostamp
+
+:::: {.columns}
+
+::: {.column width='60%'}
+
+-   It can be hard to memorise and typed in all these different divs into your Quarto presentations.
+-   We recommend `{quartostamp}`, an R package containing an RStudio `Addin` to insert pre-written divs and classes for you.
+-   To install the package:
+
+:::
+
+::: {.column width='40%'}
+
+```{r}
+#| fig-align: "center"
+#| out-width: "50%"
+knitr::include_graphics("https://github.com/matt-dray/quartostamp/raw/main/man/figures/logo.png")
+```
+
+:::
+
+::::
+
+
+```{r, eval=FALSE, echo=TRUE}
+# install.packages("remotes")  # if not yet installed
+remotes::install_github("matt-dray/quartostamp")
+```
+
+- The various `Callout Block`s are highly recommended. You should try them out! 
+
+
+## Thanks!
+
+
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+#### Thomas Fung
+- [`r icons::fontawesome("paper-plane")` thomas.fung.dr@gmail.com](mailto:thomas.fung.dr@gmail.com)
+
+- [`r icons::fontawesome("twitter")` @thomasfungdr](http://twitter.com/thomasfungdr)
+
+- [`r icons::fontawesome("github")` @thomas-fung](http://github.com/thomas-fung)
+
+:::
+
+::: {.column width='50%'}
+
+#### Connor Smith
+
+- [`r icons::fontawesome("paper-plane")` connor.smith@mq.edu.au](mailto:connor.smith@mq.edu.au)
+
+- [`r icons::fontawesome("twitter")` @ConnorSmith010](http://twitter.com/ConnorSmith010)
+
+- [`r icons::fontawesome("github")` @SmithConnor](https://github.com/SmithConnor)
+
 :::
 
 ::::
