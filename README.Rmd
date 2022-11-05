@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+# Macquarie University Quarto reveal.js Presentation Template <img src="https://user-images.githubusercontent.com/15133161/200121399-babefc48-47ef-4a06-a457-551a7cbe9d3a.png" align ="right" alt="" width ="150"/>
+
+> Template for creating a new reveal.js article format for Quarto. 
+>
+> See information about how-to use this repo template inside the template file.
+
+This is a Quarto template that assists you in creating a presentation for use with Macquarie University branding. You can learn more about about Quarto using the official guide <https://quarto.org/docs/guide/>.
+
+## Creating a New Presentation
+
+You can use this as a template to create a reveal.js presentation with a Macquarie University theme. To do this, use the following command in  your Terminal:
+
+```bash
+quarto use template thomas-fung/quarto-mq-revealjs-theme
+```
+
+This will install the extension and create an example qmd file that you can use as a starting place for your presentation.
+
+## Installation For Existing Document
+
+You may also use this format with an existing Quarto project or presentation. From the quarto project or presentation directory, run the following command in your Terminal to install this format:
+
+```bash
+quarto install extension thomas-fung/quarto-mq-revealjs-theme
+```
+
+## Usage
+
+To use the format, you can use the format name `mq-revealjs`. For example:
+
+```bash
+quarto render article.qmd --to mq-revealjs
+```
+
+or in your document yaml
+
+```yaml
+format:
+  mq-revealjs
+```
+

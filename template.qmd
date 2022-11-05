@@ -12,7 +12,18 @@ format:
     self-contained: true
 ---
 
-# Quick Start {.title}
+::: {.columns .v-center-container}
+::: {.column width="35%"}
+![](_extensions/mq/MQ-diag-partial.png)
+:::
+
+::: {.column width="65%"}
+
+[Quick Start]{.section-header-text}
+
+:::
+:::
+
 
 ## Headings
 
@@ -25,6 +36,7 @@ Headings are used to define different sections in the revealjs slides:
 -   A level 2 heading is used to indicate individual slides
 
 ## highlighting code
+<hr size="2rem" color="#373A36">
 
 ### how to
 

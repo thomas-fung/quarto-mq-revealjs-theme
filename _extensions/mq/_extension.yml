@@ -12,3 +12,8 @@ contributes:
           data-background-image: MQ-diag-full.png
           data-background-position: 50% 90%
           data-background-size: 95% 40%
+        overview: true
+        progress: true
+        touch: true
+        controls-layout: bottom-right
+        
