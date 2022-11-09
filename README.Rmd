@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-# Macquarie University Quarto reveal.js Presentation Template <img src="https://user-images.githubusercontent.com/15133161/200121399-babefc48-47ef-4a06-a457-551a7cbe9d3a.png" align ="right" alt="" width ="150"/>
+# Macquarie University Quarto reveal.js Presentation Template <img src="https://user-images.githubusercontent.com/15133161/200966938-ba6f8413-fa77-4ccb-b16d-d7cf14926057.png" align ="right" alt="" width ="150"/>
 
 > Template for creating a new reveal.js article format for Quarto. 
 >
