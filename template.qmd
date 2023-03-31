@@ -26,6 +26,26 @@ You can assessing it by adopting the following:
 :::
 :::
 
+<!-- You can also add the above code as a code snippet within RStudio IDE.
+Go to Tools > Global Options > Code > Editing > Edit Snippets, and then 
+go to the section Markdown and paste the following code in:
+
+snippet ch
+	::: {.columns .v-center-container}
+	::: {.column width="35%"}
+	![](https://raw.githubusercontent.com/thomas-fung/quarto-mq-revealjs-theme/main/_extensions/mq/MQ-diag-partial.png)
+	:::
+
+	::: {.column width="65%"}
+
+	[]{.section-header-text}
+
+	:::
+	:::
+
+Then Save, Ok, apply. Now go back to your qmd file and after writing ch, and then press shift + Tab to insert to code.
+--> 
+
 ## Headings
 
 ### location
