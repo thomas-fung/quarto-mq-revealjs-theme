@@ -14,16 +14,17 @@ format:
 
 ::: {.columns .v-center-container}
 ::: {.column width="35%"}
-![](_extensions/mq/MQ-diag-partial.png)
+![](https://raw.githubusercontent.com/thomas-fung/quarto-mq-revealjs-theme/main/_extensions/mq/MQ-diag-partial.png)
 :::
-
+<!-- 
+The above code needs an Internet connection to work. If you want to compile your work locally, a copy of the image can be found in the _extensions folder. 
+You can assessing it by adopting the following:
+![](_extensions/thomas-fung/mq/MQ-diag-partial.png) -->
 ::: {.column width="65%"}
-
 [Quick Start]{.section-header-text}
 
 :::
 :::
-
 
 ## Headings
 
