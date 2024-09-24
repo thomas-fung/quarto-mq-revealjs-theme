@@ -171,6 +171,11 @@ remotes::install_github("matt-dray/quartostamp")
 
 - The various `Callout Block`s are highly recommended. You should try them out! 
 
+## Countdown timer
+
+- You can now add a countdown timer to your slides. This is a wonderful tools for a hands-on workshop! 
+
+{{< countdown minutes=5 >}}
 
 ## Thanks!
 
