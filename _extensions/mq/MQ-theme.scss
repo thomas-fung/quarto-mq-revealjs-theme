@@ -199,3 +199,17 @@ $code-block-bg:  #F5F5F5 !default;
   visibility: visible;
 }
 
+.reveal ul, .reveal ol {
+    padding-left: 40px; /* Adjust this value to control indentation */
+    margin-left: 30px;
+}
+
+.reveal .footnote {
+    padding-left: 30px;  /* Adjust padding as needed */
+    margin-left: 0px;    /* Adjust margin as needed */
+}
+
+.reveal .footnote-backref {
+    display: inline;     /* Optional: make the return link inline if needed */
+}
+
