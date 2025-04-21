@@ -9,7 +9,7 @@ format:
   mq-revealjs:
     width: 1920
     height: 1080
-    self-contained: true
+    embed-resources: true
 ---
 
 ::: {.columns .v-center-container}
